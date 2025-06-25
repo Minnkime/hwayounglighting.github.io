@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="refresh" content="3; url=https://www.hwayounglighting.com/" />
   <title>화영라이팅 - 무영등 조명</title>
 
   <!-- SEO -->
@@ -69,4 +68,30 @@
 
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 2rem; }
+      p { font-size: 1rem; }
+    }
+  </style>
+
+  <!-- JS 기반 리디렉션 -->
+  <script>
+    setTimeout(function () {
+      window.location.href = "https://www.hwayounglighting.com/";
+    }, 3000);
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>빛의 경계를 허물다</h1>
+    <p>
+      그림자 없는 조명, 무영등.<br/>
+      화영라이팅이 만든 조명의 새로운 기준.
+    </p>
+    <a href="https://www.hwayounglighting.com/">홈페이지로 직접 이동 →</a>
+  </div>
+</body>
+</html>
